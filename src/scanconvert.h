@@ -22,7 +22,7 @@ inline const unsigned int keymap[KEY_MAP_SIZE][2] = {
     {0x71, 0x00},   //    ↑↓          Unassigned
     {0x70, 0x00},   //    Unmarked    Unassigned
     {0x11, 0x00},   //    GOTO        Unassigned
-    {0x12, 0x00},   //    Cancel      Unassigned
+    {0x12, 0x7E},   //    Cancel      Scroll Lock
     {0x1F, 0x0E},   //    Reverse TAB `
     {0x6E, 0x16},   //    1           1
     {0x6D, 0x1E},   //    2           2
@@ -79,7 +79,7 @@ inline const unsigned int keymap[KEY_MAP_SIZE][2] = {
     {0x2C, 0x29},   //    Space       Space
     {0x25, 0xE014}, //    Control R   Control R
     {0x62, 0xE070}, //    Insert      Insert
-    {0x61, 0xE07D}, //    Prev        Page Up
+    // {0x61, 0xE07D}, //    Prev        Page Up
     {0x53, 0xE07D}, //    Exec        Page Up
     {0x52, 0xE071}, //    Delete      Delete
     {0x51, 0xE07A}, //    Next        Page down

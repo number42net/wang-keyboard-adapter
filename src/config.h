@@ -4,20 +4,20 @@
 #define DATA_PIN 4
 #define IRQ_PIN 3
 
-#define LED1_PIN 5
-#define LED2_PIN 6
-#define LED3_PIN 7
-#define LED4_PIN 8
-#define LED5_PIN 9
-#define LED6_PIN 10
+#define LED1_PIN 31
+#define LED2_PIN 33
+#define LED3_PIN 35
+#define LED4_PIN 37
+#define LED5_PIN 39
+#define LED6_PIN 53
 
-#define PIEZO_PIN 11
+#define PIEZO_PIN 7
 
 // Buzzer
-#define CLICK_HERTZ 1000
-#define CLICK_DURATION 500
-#define BEEP_HERTZ 1000
-#define BEEP_DURATION 500
+#define CLICK_HERTZ 5000
+#define CLICK_DURATION 10
+#define BEEP_HERTZ 1700
+#define BEEP_DURATION 60
 
 // Constants
 const int defaultKeyUp[2] = {0x1b, 0x35};
